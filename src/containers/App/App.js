@@ -86,14 +86,14 @@ export default class App extends Component {
                                 <NavItem eventKey={1}>Home</NavItem>
                             </LinkContainer>
                             <NavDropdown enentKey={2} title="Products" id="products-nav-dropdown">
-                                <MenuItem eventKey={2.1}>Fourzero Platform</MenuItem>
-                                <MenuItem eventKey={2.2}>Benefits</MenuItem>
-                                <MenuItem eventKey={2.3}>Licensing</MenuItem>
+                                <MenuItem eventKey={2.1} href="products">Fourzero Platform</MenuItem>
+                                <MenuItem eventKey={2.2} href="products#benefits">Benefits</MenuItem>
+                                <MenuItem eventKey={2.3} href="products#licensing">Licensing</MenuItem>
                                 <MenuItem divider />
                                 <MenuItem eventKey={2.4}>FAQ</MenuItem>
                             </NavDropdown>
                             <NavDropdown enentKey={3} title="Services" id="service-nav-dropdown">
-                                <MenuItem eventKey={3.1}>Full Service</MenuItem>
+                                <MenuItem eventKey={3.1} href="services">Full Service</MenuItem>
                                 <MenuItem eventKey={3.2}>Co-Development</MenuItem>
                                 <MenuItem eventKey={3.3}>Partnership</MenuItem>
                                 <MenuItem divider />
@@ -110,8 +110,6 @@ export default class App extends Component {
                                 <MenuItem eventKey={5.3}>Examples</MenuItem>
                                 <MenuItem eventKey={5.4}>Knowledge Base</MenuItem>
                             </NavDropdown>
-                        </Nav>
-                        <Nav pullRight>
                             <NavDropdown enentKey={6} title="Careers" id="careers-nav-dropdown">
                                 <MenuItem eventKey={6.1}>Work Environment</MenuItem>
                                 <MenuItem eventKey={6.2}>Compensaion & Benefits</MenuItem>

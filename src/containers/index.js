@@ -1,4 +1,6 @@
 export App from './App/App';
+export Products from './Products/Products';
+export Services from './Services/Services';
 export Chat from './Chat/Chat';
 export Home from './Home/Home';
 export Widgets from './Widgets/Widgets';
