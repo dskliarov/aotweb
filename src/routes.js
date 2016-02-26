@@ -9,6 +9,7 @@ import {
     Home,
     Widgets,
     About,
+    Contactus,
     Login,
     LoginSuccess,
     Survey,
@@ -49,6 +50,7 @@ export default (store) => {
 
       { /* Routes */ }
       <Route path="about" component={About}/>
+      <Route path="contactus" component={Contactus}/>
       <Route path="products" component={Products}/>
       <Route path="services" component={Services}/>
       <Route path="login" component={Login}/>

@@ -64,7 +64,7 @@ export default class App extends Component {
       <div className={styles.app}>
         <Helmet {...config.app.head}/>
         <div className={styles.navbarWrapper}>
-            <div className={styles.container}>
+            <div>
                 <Navbar inverse>
                     <Navbar.Header>
                         <Navbar.Brand>
@@ -110,18 +110,16 @@ export default class App extends Component {
                                 <MenuItem eventKey={5.3}>Examples</MenuItem>
                                 <MenuItem eventKey={5.4}>Knowledge Base</MenuItem>
                             </NavDropdown>
-                            <NavDropdown enentKey={6} title="Careers" id="careers-nav-dropdown">
-                                <MenuItem eventKey={6.1}>Work Environment</MenuItem>
-                                <MenuItem eventKey={6.2}>Compensaion & Benefits</MenuItem>
-                                <MenuItem eventKey={6.3}>Jobs</MenuItem>
-                                <MenuItem eventKey={6.4}>Internship</MenuItem>
-                            </NavDropdown>
                             <NavDropdown enentKey={7} title="Company" id="company-nav-dropdown">
-                                <MenuItem eventKey={7.1}>About</MenuItem>
-                                <MenuItem eventKey={7.2}>History</MenuItem>
-                                <MenuItem eventKey={7.3}>Support(US and EU)</MenuItem>
-                                <MenuItem eventKey={7.4}>Contact us</MenuItem>
-                                <MenuItem eventKey={7.5}>Investor Relations</MenuItem>
+                                <MenuItem eventKey={7.1} href="about">About</MenuItem>
+                                <MenuItem eventKey={7.2}>Support(US and EU)</MenuItem>
+                                <MenuItem eventKey={7.3} href="contactus">Contact us</MenuItem>
+                                <NavDropdown enentKey={6} title="Careers" id="careers-nav-dropdown">
+                                    <MenuItem eventKey={6.1}>Work Environment</MenuItem>
+                                    <MenuItem eventKey={6.2}>Compensaion & Benefits</MenuItem>
+                                    <MenuItem eventKey={6.3}>Jobs</MenuItem>
+                                    <MenuItem eventKey={6.4}>Internship</MenuItem>
+                                </NavDropdown>
                             </NavDropdown>
                         </Nav>
                         {user &&

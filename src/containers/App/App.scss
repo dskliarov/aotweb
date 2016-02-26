@@ -44,8 +44,8 @@
     padding-left: 0;
 }
  .navbarWrapper .navbar {
-    padding-right: 15px;
-    padding-left: 15px;
+    padding-right: 0px;
+    padding-left: 0px;
 }
  .navbarWrapper .navbar  .container {
     width: auto;
@@ -88,7 +88,7 @@
 @media (min-width: 768px) {
     /* Navbar positioning foo */
     .navbarWrapper {
-        margin-top: 20px;
+        margin-top: 0px;
     }
     .navbarWrapper .container {
         padding-right: 35px;
@@ -99,9 +99,8 @@
         padding-left: 0;
     }
 
-    /* The navbar becomes detached from the top, so we round the corners */
-    .navbarWrapper .navbar {
-        border-radius: 4px;
+    .navbarWrapper :global(.navbar) {
+        border-radius: 0px;
     }
 
     /* Bump up size of carousel content */
