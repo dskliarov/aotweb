@@ -19,18 +19,11 @@ export default class About extends Component {
                         <div className="blog-post">
                             <blockquote>
                                 <p>
-                                    <strong>Automation of Things, LLC</strong> is an award winning Michigan-based manufacturer of the FourZero™ software platform.
+                                    <strong>Automation of Things (AoT)</strong> was founded in 2014 to simplify how the world creates and manages embedded controls and automation systems. As industry begins reaping the benefits of the connected enterprise, increased automation, and more immersive, real time user experiences require connected, intelligent, and distributed systems that are reliable, dependable, secure, and that can be updated after deployment. Control system developers need a development environment that supports agility, flexibility, and efficiency. Today, designers are limited to using software tools that are akin to those used before the advent of object-oriented programming
                                 </p>
                             </blockquote>
                             <p>
-                                <strong>FourZero™</strong> has been identified as a disruptive technology for
-                                creating devices, sensors, products, controls, and
-                                automation systems for the ever expanding connected
-                                world. We are ‘raising the bar’ in the way automation is
-                                applied and the programming of sensors, devices,
-                                automation is realized.  Product manufacturers will use this
-                                platform to position their products in the IOT, Industrial IOT
-                                and cyber physical systems markets
+                                In 2016 we introduced our FourZero™ software development platform, built to simplify and accelerate the design, deployment and management of embedded systems, programmable automation controllers, and industrial PC-based controllers.  FourZero gives controls developers a modern, object-oriented way to design software applications that are virtualized instead of hardware dependent. Once deployed, FourZero automatically handles hot-swappable changes to applications across a wide array of devices in order to more easily scale to meet the needs of today’s industrial Internet of Things.
                             </p>
                         </div>
                     </div>

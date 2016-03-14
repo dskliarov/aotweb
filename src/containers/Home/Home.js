@@ -15,9 +15,9 @@ export default class Home extends Component {
               <div className="row">
                   <div className={'col-lg-4 ' + styles.colLg}>
                       <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
-                      <h2>Heading</h2>
+                      <h3>Optimize Controls Design</h3>
                       <p>
-                          "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.i"
+                          "Develop portable controls applications at a systems level by using reusable components that are platform independent.  Develop applications across multiple devices and run-time operating systems without recompilation – even when accessing specific device APIs."
                       </p>
                       <p>
                          <a className="btn btn-default" href="#" role="button">View details</a>
@@ -25,9 +25,9 @@ export default class Home extends Component {
                   </div>
                   <div className={'col-lg-4 ' + styles.colLg}>
                       <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
-                      <h2>Heading</h2>
+                      <h3>Automate Testing</h3>
                       <p>
-                          "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.i"
+                          "Test entire control systems virtually prior to deployment by using built- in automated testing capabilities.  Add hardware in-the-loop testing prior to final deployment."
                       </p>
                       <p>
                          <a className="btn btn-default" href="#" role="button">View details</a>
@@ -35,9 +35,9 @@ export default class Home extends Component {
                   </div>
                   <div className={'col-lg-4 ' + styles.colLg}>
                       <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
-                      <h2>Heading</h2>
+                      <h3>Manage Deployments and Updates</h3>
                       <p>
-                          "Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.i"
+                          "Remotely deploy, update, and manage real-time and non-real time controls applications across multiple devices from a centralized location.  Create libraries of portable, hardware-independent, off-the-shelf applications."
                       </p>
                       <p>
                          <a className="btn btn-default" href="#" role="button">View details</a>

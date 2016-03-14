@@ -86,29 +86,21 @@ export default class App extends Component {
                                 <NavItem eventKey={1}>Home</NavItem>
                             </LinkContainer>
                             <NavDropdown enentKey={2} title="Products" id="products-nav-dropdown">
-                                <MenuItem eventKey={2.1} href="products">Fourzero Platform</MenuItem>
-                                <MenuItem eventKey={2.2} href="products#benefits">Benefits</MenuItem>
+                                <MenuItem eventKey={2.1} href="products">Fourzero™ Platform</MenuItem>
                                 <MenuItem eventKey={2.3} href="products#licensing">Licensing</MenuItem>
                                 <MenuItem divider />
                                 <MenuItem eventKey={2.4}>FAQ</MenuItem>
                             </NavDropdown>
                             <NavDropdown enentKey={3} title="Services" id="service-nav-dropdown">
-                                <MenuItem eventKey={3.1} href="services">Full Service</MenuItem>
-                                <MenuItem eventKey={3.2}>Co-Development</MenuItem>
-                                <MenuItem eventKey={3.3}>Partnership</MenuItem>
+                                <MenuItem eventKey={3.1} href="services">Quick-start program</MenuItem>
+                                <MenuItem eventKey={3.2}>Customization services</MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={3.4}>Training</MenuItem>
+                                <MenuItem eventKey={3.3}>Training</MenuItem>
                             </NavDropdown>
-                            <NavDropdown enentKey={4} title="Uses" id="uses-nav-dropdown">
-                                <MenuItem eventKey={4.1}>Case Studies</MenuItem>
-                                <MenuItem eventKey={4.2}>Use Cases</MenuItem>
-                                <MenuItem eventKey={4.3}>Projects</MenuItem>
-                            </NavDropdown>
-                            <NavDropdown enentKey={5} title="Tutorials" id="tutorials-nav-dropdown">
-                                <MenuItem eventKey={5.1}>How to?</MenuItem>
-                                <MenuItem eventKey={5.2}>Videos</MenuItem>
-                                <MenuItem eventKey={5.3}>Examples</MenuItem>
-                                <MenuItem eventKey={5.4}>Knowledge Base</MenuItem>
+                            <NavDropdown enentKey={4} title="Solutions" id="tutorials-nav-dropdown">
+                                <MenuItem eventKey={4.1}>Programmable automation controls</MenuItem>
+                                <MenuItem eventKey={4.2}>Embedded controls</MenuItem>
+                                <MenuItem eventKey={4.3}>PC-based control</MenuItem>
                             </NavDropdown>
                             <NavDropdown enentKey={7} title="Company" id="company-nav-dropdown">
                                 <MenuItem eventKey={7.1} href="about">About</MenuItem>
@@ -132,7 +124,7 @@ export default class App extends Component {
         <div className="container">
         <footer className={styles.footer}>
                     <p className="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2016 AoT, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p>© 2016 AoT, LLC. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
       </footer>
        </div>
     </div>
