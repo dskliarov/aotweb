@@ -54,29 +54,24 @@ export default class Contactus extends Component {
                             <address>
                                 <strong>EU Address:</strong>
                                 <br/>
-                                6633 18 Mile Road, 3E<br/>
-                                Sterling Heights, MI 48314<br/>
+                                Automation of Things Europe GmbH<br/>
+                                Unter Naupen 23<br/>
+                                72459 Albstadt, Germany<br/>
                                 <br/><br/>
-                                <strong>Phone:</strong>
-                                &nbsp;
-                                +1 (248) 255-4540<br/>
-                                <strong>Email:</strong>
-                                &nbsp;
-                                info@automationofthings.com
                             </address>
                         </div>
                     </div>
                     <div className="col-sm-4 blog-main">
                         <div>
                             <address>
-                                <strong>EU Sales:</strong>
+                                <strong>EU Information & Sales:</strong>
                                 <br/>
                                 <strong>Phone:</strong>
                                 &nbsp;
-                                +49 (172) 749-5666<br/>
+                                +49 175 7027 449 <br/>
                                 <strong>Email:</strong>
                                 &nbsp;
-                                sales_eu@automationofthings.com
+                                Jseyler.aot@outlook.com
                             </address>
                         </div>
                     </div>

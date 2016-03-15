@@ -70,7 +70,7 @@ export default class App extends Component {
                         <Navbar.Brand>
                             <IndexLink to="/" activeStyle={{color: '#33e0ff'}}>
                                 <div className={styles.brand}/>
-                                <span>{config.app.title}</span>
+                                <span className={styles.brand_company}>{config.app.title}</span>
                             </IndexLink>
                         </Navbar.Brand>
                         <Navbar.Toggle/>
@@ -86,10 +86,12 @@ export default class App extends Component {
                                 <NavItem eventKey={1}>Home</NavItem>
                             </LinkContainer>
                             <NavDropdown enentKey={2} title="Products" id="products-nav-dropdown">
-                                <MenuItem eventKey={2.1} href="products">Fourzero™ Platform</MenuItem>
-                                <MenuItem eventKey={2.3} href="products#licensing">Licensing</MenuItem>
+                                <MenuItem eventKey={2.1} href="products#platform">Fourzero™ Platform</MenuItem>
+                                <MenuItem eventKey={2.2} href="products#runtime">Fourzero™ Runtime</MenuItem>
+                                <MenuItem eventKey={2.3} href="products#studio">Fourzero™ Studio</MenuItem>
+                                <MenuItem eventKey={2.4} href="products#licensing">Licensing</MenuItem>
                                 <MenuItem divider />
-                                <MenuItem eventKey={2.4}>FAQ</MenuItem>
+                                <MenuItem eventKey={2.5}>FAQ</MenuItem>
                             </NavDropdown>
                             <NavDropdown enentKey={3} title="Services" id="service-nav-dropdown">
                                 <MenuItem eventKey={3.1} href="services">Quick-start program</MenuItem>
