@@ -40,18 +40,71 @@
     .carousel .item {
         height: 300px;
     }
-    .carousel > .item > img {
-        height: 300px;
+    .item img {
     }
 }
 
-.firstSlide {
-}
+@media (max-device-width: 1024px) {
+      /*IPad portrait AND netbooks, AND anything with smaller screen*/
+      /*make the design flexible if possible */
+      /*Structure your code thinking about all devices that go below*/
+    .carousel {
+        height: 300px;
+        margin-bottom: 25px;
+    }
 
-.secondSlide {
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+        height: 300px;
+    }
+    .item img {
+        top: 0;
+    }
 }
+@media (max-device-width: 640px) {
+     /*Iphone portrait and smaller*/
+    .carousel {
+        height: 300px;
+        margin-bottom: 25px;
+    }
 
-.thirdSlide {
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+        height: 300px;
+    }
+    .item img {
+        top: 0;
+    }
+}
+@media (max-device-width: 540px) {
+     /*Smaller and smaller...*/
+    .carousel {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+        height: 300px;
+    }
+    .item img {
+        top: 10%;
+    }
+}
+@media (max-device-width: 320px) {
+     /*IPhone portrait and smaller. You can probably stop on 320px*/
+    .carousel {
+        height: 300px;
+        margin-bottom: 25px;
+    }
+
+    /* Declare heights because of positioning of img element */
+    .carousel .item {
+        height: 300px;
+    }
+    .item img {
+        top: 10%;
+    }
 }
 
 /* RESPONSIVE CSS
