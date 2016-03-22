@@ -79,13 +79,13 @@
 @media (max-device-width: 540px) {
      /*Smaller and smaller...*/
     .carousel {
-        height: 300px;
+        height: 250px;
         margin-bottom: 25px;
     }
 
     /* Declare heights because of positioning of img element */
     .carousel .item {
-        height: 300px;
+        height: 250px;
     }
     .item img {
         top: 10%;
@@ -100,7 +100,7 @@
 
     /* Declare heights because of positioning of img element */
     .carousel .item {
-        height: 300px;
+        height: 250px;
     }
     .item img {
         top: 10%;
