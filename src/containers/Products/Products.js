@@ -18,7 +18,7 @@ export default class Home extends Component {
             <div className="row">
                 <div className="col-sm-8 blog-main">
                     <div className="blog-post">
-                        <h2 className="blog-post-title">AoT Intoduction</h2>
+                        <h2 className="blog-post-title">Intoduction</h2>
                         <hr/>
                             <p>
                                 <strong>Automation of Things (AoT)</strong> has developed, <strong>FourZero™</strong> platform to enable automation system manufacturers to create smart devices for the connected world of digital manufacturing.  FourZero is a software platform for creating and supporting any controls or automation application that uses embedded systems, programmable automation controllers or industrial PC.  While the platform fully implements the rigorous requirements typical of a real-time control system, it also incorporates many technologies that are widely used by consumer IT industry.  By using this platform, you will be able to take advantage of reusability, interoperability, portability and system level programming.  Use this platform will make your product dependable, secure, reliable, and safe for the age of industrial IOT.

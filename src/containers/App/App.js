@@ -126,7 +126,7 @@ export default class App extends Component {
         <div className="container">
         <footer className={styles.footer}>
                     <p className="pull-right"><a href="#">Back to top</a></p>
-        <p>© 2016 AoT, LLC. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        <p>© 2016 AoT, LLC. </p>
       </footer>
        </div>
     </div>

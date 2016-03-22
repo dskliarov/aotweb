@@ -22,14 +22,12 @@
 .carousel .item {
     height: 450px;
     background-color: #777;
+    overflow: hidden;
 }
 
-.carousel > .item > img {
-    height: 450px;
+.item img{
     position: absolute;
-    top: 0;
-    left: 0;
-    min-width: 100%;
+    top: -30%;
 }
 
 @media(max-height: 768px) {
