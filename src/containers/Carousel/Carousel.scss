@@ -94,7 +94,7 @@
 @media (max-device-width: 320px) {
      /*IPhone portrait and smaller. You can probably stop on 320px*/
     .carousel {
-        height: 300px;
+        height: 250px;
         margin-bottom: 25px;
     }
 
@@ -103,7 +103,7 @@
         height: 250px;
     }
     .item img {
-        top: 10%;
+        top: 20%;
     }
 }
 
