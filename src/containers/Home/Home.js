@@ -14,34 +14,32 @@ export default class Home extends Component {
           <div className={'container ' + styles.marketing}>
               <div className="row">
                   <div className={'col-lg-4 ' + styles.colLg}>
-                      <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
-                      <h3>Optimize Controls Design</h3>
+                      <img className={styles.bubble_img} src={require('./img/bubble_one.png')} alt="Generic placeholder image"/>
+                      <h3>Code Once, Run Anywhere</h3>
                       <p>
-                          "Develop portable controls applications at a systems level by using reusable components that are platform independent.  Develop applications across multiple devices and run-time operating systems without recompilation – even when accessing specific device APIs."
-                      </p>
-                      <p>
-                         <a className="btn btn-default" href="#" role="button">View details</a>
+                          "Develop portable controls applications at a systems level using platform independent, reusable components. Develop applications across multiple devices and run-time operating systems without recompilation."
                       </p>
                   </div>
                   <div className={'col-lg-4 ' + styles.colLg}>
-                      <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
+                      <img className={styles.bubble_img} src={require('./img/bubble_two.png')} alt="Generic placeholder image"/>
                       <h3>Automate Testing</h3>
                       <p>
-                          "Test entire control systems virtually prior to deployment by using built- in automated testing capabilities.  Add hardware in-the-loop testing prior to final deployment."
-                      </p>
-                      <p>
-                         <a className="btn btn-default" href="#" role="button">View details</a>
+                          "Test entire control systems virtually using built-in automated testing capabilities.  Add hardware in-the-loop testing prior to final deployment."
                       </p>
                   </div>
                   <div className={'col-lg-4 ' + styles.colLg}>
-                      <img className="img-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" widht="150" height="150"/>
-                      <h3>Manage Deployments and Updates</h3>
+                      <img className={styles.bubble_img} src={require('./img/bubble_three.png')} alt="Generic placeholder image"/>
+                      <h3>Manage Deployment</h3>
                       <p>
-                          "Remotely deploy, update, and manage real-time and non-real time controls applications across multiple devices from a centralized location.  Create libraries of portable, hardware-independent, off-the-shelf applications."
+                          "Centrally manage and remotely deploy, update, and manage real-time and non-real time controls applications across multiple devices from a centralized location.  Create libraries of portable, hardware-independent, off-the-shelf applications."
                       </p>
+                  </div>
+                  <div className="row">
+                      <div className={'col-lg-12 ' + styles.colLg}>
                       <p>
                          <a className="btn btn-default" href="#" role="button">View details</a>
                       </p>
+                      </div>
                   </div>
               </div>
               <hr className={styles.featuretteDivider}/>

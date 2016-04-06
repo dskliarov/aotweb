@@ -25,6 +25,16 @@
     overflow: hidden;
 }
 
+.carousel .item * h3 {
+    font-size: 28px;
+    color: #FFFF00;
+}
+
+.carousel .item * p {
+    font-size: 18px;
+    color: #FFFF00;
+}
+
 .item img{
     position: absolute;
     top: -30%;
@@ -41,6 +51,7 @@
         height: 300px;
     }
     .item img {
+        opacity: 0.9;
     }
 }
 

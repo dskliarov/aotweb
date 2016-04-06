@@ -10,7 +10,7 @@ export default class InternalCarousel extends Component {
             <CarouselItem className={styles.item}>
                 <img src="http://image.shutterstock.com/z/stock-photo-mlada-boleslav-czech-republic-may-skoda-auto-celebrates-years-since-its-establishemnt-by-380748055.jpg"/>
                 <div className="carousel-caption">
-                    <h3>Simplify Controls and Automation System Development</h3>
+                    <h3>Control the Industrial Internet of Things</h3>
                     <p>Programmable Automation Controls</p>
                 </div>
             </CarouselItem>

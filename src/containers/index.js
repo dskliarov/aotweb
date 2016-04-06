@@ -1,4 +1,5 @@
 export App from './App/App';
+export Lidership from './Lidership/Lidership';
 export Products from './Products/Products';
 export Services from './Services/Services';
 export Chat from './Chat/Chat';
