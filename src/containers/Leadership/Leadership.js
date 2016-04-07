@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 import Helmet from 'react-helmet';
 
-export default class Lidership extends Component {
+export default class Ledership extends Component {
 
   render() {
-    const styles = require('./Lidership.scss');
+    const styles = require('./Leadership.scss');
     return (
-        <div className={styles.lidership}>
+        <div className={styles.leadership}>
             <div className="jumbotron">
                 <div className="container">
                     <h1>Lidership</h1>

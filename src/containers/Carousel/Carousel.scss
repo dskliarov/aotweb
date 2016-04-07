@@ -55,6 +55,13 @@
     }
 }
 
+@media (min-device-width: 1500px) {
+    .item img {
+        top: 0;
+        top: -70%;
+        width: 3300px;
+    }
+}
 @media (max-device-width: 1024px) {
       /*IPad portrait AND netbooks, AND anything with smaller screen*/
       /*make the design flexible if possible */
@@ -83,7 +90,7 @@
     .carousel .item {
         height: 300px;
     }
-    .item img {
+    .item * img {
         top: 0;
     }
 }
@@ -101,12 +108,14 @@
     .item img {
         top: 10%;
     }
+    .carousel .item * h3 {
+        font-size: 20px;
+    }
 }
 @media (max-device-width: 320px) {
      /*IPhone portrait and smaller. You can probably stop on 320px*/
     .carousel {
         height: 250px;
-        margin-bottom: 25px;
     }
 
     /* Declare heights because of positioning of img element */
@@ -115,6 +124,9 @@
     }
     .item img {
         top: 20%;
+    }
+    .carousel .item * h3 {
+        font-size: 20px;
     }
 }
 

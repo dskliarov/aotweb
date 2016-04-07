@@ -106,15 +106,10 @@ export default class App extends Component {
                             </NavDropdown>
                             <NavDropdown enentKey={7} title="Company" id="company-nav-dropdown">
                                 <MenuItem eventKey={7.1} href="about">About</MenuItem>
-                                <MenuItem eventKey={7.2} href="lidership">Lidership</MenuItem>
+                                <MenuItem eventKey={7.2} href="leadership">Leadership</MenuItem>
                                 <MenuItem eventKey={7.3}>Support(US and EU)</MenuItem>
                                 <MenuItem eventKey={7.4} href="contactus">Contact us</MenuItem>
-                                <NavDropdown enentKey={6} title="Careers" id="careers-nav-dropdown">
-                                    <MenuItem eventKey={6.1}>Work Environment</MenuItem>
-                                    <MenuItem eventKey={6.2}>Compensaion & Benefits</MenuItem>
-                                    <MenuItem eventKey={6.3}>Jobs</MenuItem>
-                                    <MenuItem eventKey={6.4}>Internship</MenuItem>
-                                </NavDropdown>
+                                <NavItem enentKey={6} href="careers">Careers</NavItem>
                             </NavDropdown>
                         </Nav>
                         {user &&
