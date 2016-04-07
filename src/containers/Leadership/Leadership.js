@@ -9,7 +9,7 @@ export default class Ledership extends Component {
         <div className={styles.leadership}>
             <div className="jumbotron">
                 <div className="container">
-                    <h1>Lidership</h1>
+                    <h1>Leadership</h1>
                     <Helmet title="Lidership"/>
                 </div>
             </div>
